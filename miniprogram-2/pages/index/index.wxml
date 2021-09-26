@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">彩票号码</view>
+<view class="title">201923010224 孙业旸</view>
+<view>彩票号码</view>
+<view wx:for="{{rand}}">{{item}}</view>
+<button type="primary" bindtap="newRand">彩票号码</button>
+</view>
